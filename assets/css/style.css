@@ -1,0 +1,65 @@
+body {
+    background-image: url("../images/trees.png"); 
+}
+.navbar .myName {
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar .myName:hover{
+    color: white;
+}
+
+.myCard {
+    margin-left: 20px;
+    margin-right: 40%;
+    margin-top: 40px;
+    margin-bottom:30px;
+}
+
+.myCard h1 {
+    color: #4aaaa5;
+}
+
+.myFooter {
+    position:fixed;
+    bottom: 40px;
+    width: 100%;
+    height:5px;
+    background-color: #4aaaa5;
+}
+
+.myFootersFooter {
+    position: fixed;
+    bottom: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: #666666;
+}
+
+.myPic {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    background-color: #bbb;
+    border: 0;
+    height: 1px;
+}
+
+.form-group {
+    margin-left: 20px;
+}
+
+.submitBtn {
+    background-color: #4aaaa5;
+}
+
+.submitBtn:hover{
+    background-color: #4aaaa5;
+}
