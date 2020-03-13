@@ -14,10 +14,16 @@ body {
 
 .myCard {
     margin-left: 20px;
-    margin-right: 40%;
+    margin-right: 20px;
     margin-top: 40px;
-    margin-bottom:30px;
+    margin-bottom: 60px;
 }
+
+/* .container {
+    background-color: white;
+    float: left;
+    min-width: 800px;
+} */
 
 .myCard h1 {
     color: #4aaaa5;
@@ -29,6 +35,7 @@ body {
     width: 100%;
     height:5px;
     background-color: #4aaaa5;
+    margin-top: 20px;
 }
 
 .myFootersFooter {
@@ -44,6 +51,16 @@ body {
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
+    height: auto;
+    width: 225px;
+}
+
+.portPic {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    /* height: auto;
+    width: auto; */
 }
 
 hr {
