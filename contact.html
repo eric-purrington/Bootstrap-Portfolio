@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+
+    <!-- Bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- My stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
+
+    <!-- Navbar from Bootstrap modified to move links to the right -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <span class="navbar-brand mb-0 h1 myName">Eric Purrington</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,39 +29,42 @@
         </div>
     </nav>
 
-    <div class="card myCard">
-        <div class="card-body">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1>Contact</h1>
-                </div>
+    <!-- Container holding the main content justified by two rows with one col in each -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Contact</h1>
             </div>
-            <hr class="myHorizontal">
-            <div class="row">
-                <div class="col-sm-9">
-                    <form>
-                        <div class="form-group">
-                          <label for="exampleFormControlInput1">Name</label>
-                          <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Email</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary submitBtn">Submit</button>
-                    </form>
-                </div>
+        </div>
+        <hr class="myHorizontal">
+        <div class="row">
+            <div class="col-sm-9">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submitBtn">Submit</button>
+                </form>
             </div>
         </div>
     </div>
     
+    <!-- Footer of the page -->
     <div class="myFooter"></div>
-    <div class="myFootersFooter"></div>
+    <div class="myFootersFooter">
+        <p>&copy; Copyright 2020 Eric Purrington</p>
+    </div>
 
+    <!-- Javascript links taken from Bootstrap in case it was used  -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
